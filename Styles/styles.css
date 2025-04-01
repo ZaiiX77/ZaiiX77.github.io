@@ -1,0 +1,28 @@
+h1.title{
+    font-size: larger;
+    font-style:italic;
+    color: rgb(103, 28, 2);
+    font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, monospace;
+}
+
+div.title{
+    color: brown
+}
+h2{
+    font-size: large;
+    font-style:italic;
+    color: rgb(103, 28, 2);
+    font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, monospace;
+}
+h3{
+    font-size: medium;
+    font-style:italic;
+    color: rgb(103, 28, 2);
+    font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, monospace;
+}
+p{
+    font-size: medium;
+    font-style:italic;
+    color: rgb(17, 4, 0);
+    font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, monospace;
+}
