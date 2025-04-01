@@ -17,7 +17,7 @@ h2{
 h3{
     font-size: medium;
     font-style:italic;
-    color: rgb(103, 28, 2);
+    color: rgb(48, 14, 3);
     font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, monospace;
 }
 p{
@@ -26,3 +26,39 @@ p{
     color: rgb(17, 4, 0);
     font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, monospace;
 }
+
+nav { 
+    background-color: #724b0d;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.mainMenu {
+    background-color: #c49549; 
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
